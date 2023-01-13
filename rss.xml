@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>News</title>
+		<link>https://teslabusiness.netlify.com/news.html</link>
+		<description>News about new components.</description>
+		<item>
+			<title>Introducing new Tesla Vehicle accessories.</title>
+			<link>https://teslabusiness.netlify.com/news.html</link>
+			<description>A Tesla Wall Connector is the most convenient way to charge at your home or office - with the fastest recharge speeds. Simply plug in overnight and wake up to a full charge, every morning.</description>
+		</item>
+		<item>
+			<title>Roadster All-Weather Cargo Mats</title>
+			<link>https://teslabusiness.netlify.com</link>
+			<description>Roadster All-Weather Cargo Mats are made from thermoplastic elastomer material, for extreme-duty floor protection. 100% recyclable and free of cadmium, lead, latex and PVC.</description>
+		</item>
+	</channel>
+</rss>

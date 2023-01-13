@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Model Y | Tesla</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Teodora Nedeljković">
+	<meta name="keywords" content="Tesla, Model Y, Tesla Model Y, Model Y news, Model Y specs, electric, EV, electric vehicle, electric car, Model Y price,  EV charging, EV range, safety, all-wheel drive, acceleration">
+	<meta name="description" content="Model Y has a 300 mile range (EPA est.), 0-60 mph acceleration in 3.5 seconds and best-in-class storage.">
+</head>
+<body>
+	<div class="container-fluid p-0 position-relative" id="video-holder-full">
+		<video muted autoplay class="position-absolute" id="model-y-video">
+			<source src="video/introducing-model-y.mp4" type="video/mp4">
+		</video>
+		<div class="container-fluid p-0 position-absolute bg-transparent" id="menu">
+				<div class="container">
+					<div class="row mb-0 pb-0">
+						<div class="col-sm-12 p-0">
+							<ul class="navbar mb-0 p-0" id="menu-transition">
+								<li class="d-none d-lg-block"><a class="nav-link black-text" href="model-s.html">MODEL S</a></li>
+								<li class="d-none d-lg-block"><a class="nav-link black-text" href="model-y.html">MODEL Y</a></li>
+								<li class="d-none d-lg-block"><a class="nav-link black-text" href="roadster.html">ROADSTER</a></li>
+								<li class="order-xl-first"><a href="index.html"><img class="d-none d-lg-block" src="images/logo.png" alt="logo"><img class="d-sm-block d-lg-none" src="images/logo-sm.png" alt="logo"></a></li>
+								<li class="d-none d-lg-block"><a class="nav-link black-text" href="solar.html">SOLAR POWER</a></li>
+								<li class="d-none d-lg-block"><a class="nav-link black-text" href="news.html">NEWS</a></li>
+								<li class="d-none d-lg-block"><a class="nav-link black-text" href="author.html">AUTHOR</a></li>
+								<li class="d-block d-lg-none d-flex align-items-center">
+									<a class="nav-link black-text button-collapse" data-activates="slide-out" href="#"><i class="small material-icons">menu</i></a>
+								</li>
+								<ul id="slide-out" class="side-nav d-flex flex-column align-items-center justify-content-center p-0">
+									<li><a class="text-decoration-none" href="model-s.html">MODEL S</a></li>
+									<li><a class="text-decoration-none" href="model-y.html">MODEL Y</a></li>
+									<li><a class="text-decoration-none" href="roadster.html">ROADSTER</a></li>
+									<li><a class="text-decoration-none border-top" href="solar.html">SOLAR POWER</a></li>
+									<li><a class="text-decoration-none" href="news.html">NEWS</a></li>
+									<li><a class="text-decoration-none" href="author.html">AUTHOR</a></li>
+								</ul>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="col-6 position-absolute d-flex justify-content-center align-items-center" id="header">
+			<h1 class="light black-text">MODEL&nbsp;&nbsp;Y</h1>
+		</div>
+		<a class="waves-effect waves-light btn modal-trigger position-absolute grey darken-4 grey-text text-lighten-4" id="order-now" href="#modal1"> ORDER NOW</a>
+		<div id="modal1" class="modal modal-fixed-footer">
+			<div class="modal-content border-0">
+				<div class="row" id="form-holder">
+					<div class="col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+						<h2 class="light center">Order a Model Y</h2>
+						<form method="" action="#" id="order-form-content">
+								<div class="row">
+									<div class="input-field col-sm-6">
+										<input id="first_name" type="text" class="validate">
+										<label for="first_name" class="ml-3">First Name</label>
+									</div>
+									<div class="input-field col-sm-6">
+										<input id="last_name" type="text" class="validate">
+										<label for="last_name" class="ml-3">Last Name</label>
+									</div>
+									<div class="input-field col-sm-6">
+										<input id="card" type="text" class="validate">
+										<label for="card" class="ml-3">Card number</label>
+									</div>
+									<div class="input-field col-sm-6">
+										<input id="number" type="number" class="validate">
+										<label for="number" class="ml-3">Number</label>
+									</div>
+									<div class="input-field col-sm-12">
+										<input id="email" type="email" class="validate">
+										<label for="email" class="ml-3">Email</label>
+									</div>
+									<div class="input-field col-sm-12">
+										<select>
+											<option value="" selected>Choose a color</option>
+											<option value="1">Black</option>
+											<option value="2">Red</option>
+											<option value="3">Blue</option>
+										</select>
+										<label class="ml-3">Color</label>
+									</div>
+								</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer d-flex justify-content-center border-0 pb-5">
+				<button type="submit" form="order-form-content" value="Request" name="action" class="modal-close waves-effect waves btn mr-4" id="button-blue">Order
+				</button>
+				<button type="submit" form="order-form-content" name="action" value="Request" class="modal-close waves-effect waves btn" id="button-blue">Cancel</button>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="container-fluid">
+		<div class="row p-4 mt-5">
+			<div class="col-lg-2 col-xl-4 mb-3">
+				<h2 class="light">Designed for Safety</h2>
+				<p>Like every Tesla, Model Y is designed to be the safest vehicle in its class. The low center of gravity, rigid body structure and large crumple zones provide unparalleled protection.</p>
+			</div>
+			<div class="col-lg-10 col-xl-10 mt-4 mb-2 order-xl-last">	
+				<img src="images/model-y-inside.jpg" class="responsive-img" alt="car">
+			</div>
+			<div class="col-sm-12 col-xl-4 order-2 order-lg-last order-xl-1 ml-3 mt-5 mb-3"><blockquote>Floor mounted battery</blockquote><blockquote>Large crumple zones</blockquote></div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row p-4 mb-5">
+			<div class="col-sm-12 mb-5">
+				<h2 class="light center">Go Anywhere</h2>
+			</div>
+			<div class="col-md-5 offset-md-1 col-lg-2 offset-lg-1 d-flex flex-column justify-content-center">
+				<h3 class="light text-left text-lg-center">300 mi</h3>
+				<p class="left-align">The longest electric range of any sport utility vehicle on the road.</p>
+				<h3 class="light text-left text-lg-center">15 min</h3>
+				<p class="left-align">Recharge 168 miles in 15 minutes at Supercharger locations.</p>
+			</div>
+			<div class="col-10 offset-1 col-md-8 offset-md-2 order-md-last col-lg-6 offset-lg-0 order-lg-0 mb-5 mt-5">
+				<img src="images/model-y.jpg" alt="model-y-car" class="responsive-img">
+			</div>
+			<div class="col-md-5 offset-md-1 col-lg-2 offset-lg-0 d-flex flex-column justify-content-center">
+				<h3 class="light text-left text-lg-center">13K+</h3>
+				<p class="left-align">Superchargers placed along well-traveled routes around the world.</p>
+				<h3 class="light text-left text-lg-center">360°</h3>
+				<p class="left-align">Rear, side and forward-facing cameras provide maximum visibility.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="container-fluid black pb-5" id="full-height">
+		<div class="row p-4">
+			<div class="col-lg-6 mt-5 pt-4">
+				<img src="images/model-y-specs.jpg" alt="car" class="responsive-img ">
+			</div>
+			<div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 d-flex flex-column order-first order-lg-last">
+				<h2 class="grey-text text-lighten-3 mb-5 light">Model Y Specifications</h2>
+				<ul class="collapsible grey-text text-lighten-2">
+					<li>
+						<div class="collapsible-header">
+							<p>Standard Range</p>
+							<i class="material-icons">arrow_drop_down</i>
+						</div>
+						<div class="collapsible-body pb-0">
+							<div class="row">
+								<div class="col-sm-6">
+									<h6 class="white-text">Battery</h6>
+									<p>Standard Range</p>
+									<h6 class="white-text">Acceleration</h6>
+									<p>5.9s 0-60 mph</p>
+									<h6 class="white-text">Range</h6>
+									<p>230 miles</p>
+									<h6 class="white-text">Drive</h6>
+									<p>Rear-Wheel Drive</p>
+									<h6 class="white-text">Seating</h6>
+									<p>Up to 7 Adults</p>
+								</div>
+								<div class="col-sm-6">
+									<h6 class="white-text">Wheels</h6>
+									<p>18" or 19"</p>
+									<h6 class="white-text">Cargo</h6>
+									<p>66 cu ft</p>
+									<h6 class="white-text">Displays</h6>
+									<p>15" Center Touchscreen</p>
+									<h6 class="white-text">Supercharging</h6>
+									<p>Pay Per Use</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header">
+							<p>Long Range RWD (rear-wheel drive)</p>
+							<i class="material-icons right">arrow_drop_down</i>
+						</div>
+						<div class="collapsible-body pb-0">
+							<div class="row">
+								<div class="col-sm-6">
+									<h6 class="white-text">Battery</h6>
+									<p>Long Range</p>
+									<h6 class="white-text">Acceleration</h6>
+									<p>5.5s 0-60 mph</p>
+									<h6 class="white-text">Range</h6>
+									<p>300 miles</p>
+									<h6 class="white-text">Drive</h6>
+									<p>Rear-Wheel Drive</p>
+									<h6 class="white-text">Seating</h6>
+									<p>Up to 7 Adults</p>
+								</div>
+								<div class="col-sm-6">
+									<h6 class="white-text">Wheels</h6>
+									<p>18" or 19"</p>
+									<h6 class="white-text">Cargo</h6>
+									<p>66 cu ft.</p>
+									<h6 class="white-text">Top Speed</h6>
+									<p>130mph</p>
+									<h6 class="white-text">Displays</h6>
+									<p>15" Center Touchscreen</p>
+									<h6 class="white-text">Supercharging</h6>
+									<p>Pay Per Use</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="collapsible-header">
+							<p>Long Range AWD (all-wheel drive)</p>
+							<i class="material-icons right">arrow_drop_down</i>
+						</div>
+						<div class="collapsible-body pb-0">
+							<div class="row">
+								<div class="col-sm-6">
+									<h6 class="white-text">Battery</h6>
+									<p>Long Range</p>
+									<h6 class="white-text">Acceleration</h6>
+									<p>4.8s 0-60 mph</p>
+									<h6 class="white-text">Range</h6>
+									<p>280 miles</p>
+									<h6 class="white-text">Drive</h6>
+									<p>Dual Motor All-Wheel Drive</p>
+									<h6 class="white-text">Seating</h6>
+									<p>Up to 7 Adults</p>
+								</div>
+								<div class="col-sm-6">
+									<h6 class="white-text">Wheels</h6>
+									<p>18" or 19"</p>
+									<h6 class="white-text">Cargo</h6>
+									<p>66 cu ft.</p>
+									<h6 class="white-text">Top Speed</h6>
+									<p>135mph</p>
+									<h6 class="white-text">Displays</h6>
+									<p>15" Center Touchscreen</p>
+									<h6 class="white-text">Supercharging</h6>
+									<p>Pay Per Use</p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="page-footer grey darken-4">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center mt-4">
+					<h5 class="white-text">CALL OUR CUSTOMER SERVICE:</h5>
+					<a class="grey-text" href="#">Worldwide phone numbers.</a>
+				</div>
+				<div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center mt-4">
+					<h5 class="white-text">FIND US:</h5>
+					<a class="grey-text" href="#">See the list of our stores.</a>
+				</div>
+			</div>
+			<div class="row border-top border-bottom">
+				<div class="col-md-6 col-sm-12 d-flex align-items-center">
+					<h5 class="white-text mb-2 mt-2">FOLLOW US:</h5>
+					<ul class="nav mb-2 mt-2">
+						<li><a class="grey-text nav-link" href="https://www.facebook.com"><i class="fab fa-facebook-f d-lg-none"></i><p class="d-none d-lg-block pt-3">Facebook</p></a></li>
+						<li><a class="grey-text nav-link" href="https://www.instagram.com"><i class="fab fa-instagram d-lg-none"></i><p class="d-none d-lg-block pt-3">Instagram</p></a></li>
+						<li><a class="grey-text nav-link" href="https://www.twitter.com"><i class="fab fa-twitter d-lg-none"></i><p class="d-none d-lg-block pt-3">Twitter</p></a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-sm-12 d-flex justify-content-md-center align-items-center justify-content-sm-start mb-2">
+					<a class="grey-text text-lighten-4" href="news.html">NEWS</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container text-sm-left text-md-center">
+				<p>2019, designed by Teodora Nedeljković&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="css/style.css">Css&nbsp;&nbsp;</a><a href="js/init.js">Java Script</a></p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script src="js/init.js" type="text/javascript"></script>
+	<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+</body>
+</html>

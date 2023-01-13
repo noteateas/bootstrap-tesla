@@ -1,0 +1,249 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+}
+$plava: #1565c0;
+#header{
+	bottom: 75px;
+	left: 26%;
+}
+@media screen and (min-width: 576px) {
+	#header{
+		left: 27%;
+	}
+}
+@media (min-width: 992px){
+	#header{
+		left: 25.5%;
+	}
+}
+@media (min-width: 1200px){
+	#header{
+		left:24%;
+	}
+}
+/**********-----------MENI-----------**********/
+#menu-transition a:hover{
+	background-color: transparent;
+	color: $plava !important;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+#slide-out {
+	a:hover{
+		background-color: transparent;
+		color: $plava !important;
+		transform: scale(1.1);
+		transition: 0.2s;
+	}
+}
+.side-nav{
+	height: 300px;
+	top: 30%;
+}
+@media (max-width: 576px){
+	.side-nav{
+		width: 200px;
+	}
+}
+
+/**********-----------INDEX-----------**********/
+.carousel.carousel-slider{
+	min-height: 400px !important;
+}
+.carousel-item {
+	transition: none;
+}
+#solar-cover{
+	background-image: url(../images/solar-cover.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+#menu{
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+#btn-fixed{
+	bottom: 60px;
+	left: 42%;
+}
+@media (min-width: 992px){
+	#btn-fixed{
+		left: 44%;
+	}
+}
+
+
+/**********-----------MODEL-S-----------**********/
+#model-s{
+	height: 100vh;
+	background-image: url(../images/model-s1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+#order-now{
+	bottom: 30px;
+	left: 38%;
+}
+.character-counter{
+		display: none;
+	}
+@media screen and (min-width: 576px) {
+	#order-now{
+		left: 45%;
+	}
+}
+.input-field label {
+	color: $plava !important;
+}
+.input-field input[type=text]:focus + label {
+	color: $plava !important;
+}
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid $plava !important;
+	box-shadow: 0 1px 0 0 $plava !important;
+}
+.input-field input[type=email]:focus {
+	border-bottom: 1px solid $plava !important;
+	box-shadow: 0 1px 0 0 $plava !important;
+}
+.input-field input[type=number]:focus {
+	border-bottom: 1px solid $plava !important;
+	box-shadow: 0 1px 0 0 $plava !important;
+}
+.input-field input[type=password]:focus {
+	border-bottom: 1px solid $plava !important;
+	box-shadow: 0 1px 0 0 $plava !important;
+}
+.input-field .prefix.active {
+color: $plava !important;
+}
+.dropdown-content li>a, .dropdown-content li>span{
+color: $plava !important;
+}
+.caret{
+	display: none;
+}
+blockquote {
+	border-left: 5px solid $plava;
+}
+#full-height{
+	min-height: 100vh;
+}
+#form-holder{
+	overflow-x: hidden;
+}
+#button-blue:hover{
+	background-color: $plava !important;
+}
+@media screen and (min-width: 768px) {
+	.modal.modal-fixed-footer{
+		width: 80%;
+	}
+}
+@media (min-width: 1200px) {
+	.modal.modal-fixed-footer{
+		width: 65%;
+	}
+}
+.collapsible-header{
+	background-color: black;
+	outline: none;
+	&:hover{
+		background-color: grey;
+	}
+}
+
+
+
+
+/**********-----------ROADSTER-----------**********/
+#roadster{
+	height: 100vh;
+	background-image: url(../images/roadster.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#roadster-video-holder{
+	overflow: hidden;
+	height: 50vh;
+	video{
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+/**********-----------SOLAR-----------**********/
+#solar{
+	height: 100vh;
+	background-image: url(../images/solar.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+input[type=range] + .thumb{
+	background-color: $plava;
+}
+input[type=range]::-webkit-slider-thumb {
+	background-color: $plava ;
+}
+
+input[type=radio]:checked + label::after, [type=radio].with-gap:checked + label::after {
+	background-color: $plava !important;
+	border: 2px solid $plava !important;
+}
+input[type=radio]:checked + label::after, [type=radio].with-gap:checked + label::before, input[type=radio].with-gap:checked + label::after {
+	border: 2px solid $plava !important;
+}
+input[type=checkbox].filled-in:checked + label:after{
+	border: 2px solid $plava;
+	background-color: $plava;
+}
+
+
+
+/**********-----------BACKGROUND VIDEO-----------**********/
+#video-holder{
+	overflow: hidden;
+	height: 90vh;
+	video{
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+#video-holder-full{
+	overflow: hidden;
+	height: 100vh;
+	video{
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (min-aspect-ratio: 16/9){
+	#model-s-video, #model-y-video{
+		height: 300% !important;
+		top: -100% !important;
+	}
+}
+@media (max-aspect-ratio: 16/9){
+	#model-s-video{
+		width: 300% !important;
+		left: -100% !important;
+	}
+	#model-y-video{
+		width: 400% !important;
+		left: -150% !important;
+	}
+}
